@@ -213,8 +213,6 @@ public class AlphaKSlackExtensionTestCase {
         inputHandler.send(new Object[]{34l, 51.0});
         inputHandler.send(new Object[]{32l, 27.0});
 
-
-
         Thread.sleep(2000);
         executionPlanRuntime.shutdown();
 
